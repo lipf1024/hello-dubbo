@@ -36,5 +36,24 @@
         <artifactId>sentinel-transport-simple-http</artifactId>
         <version>1.8.4</version>
     </dependency>
+    <!--sentinel zookeeper 持久化-->
+<!--    <dependency>-->
+<!--        <groupId>com.alibaba.csp</groupId>-->
+<!--        <artifactId>sentinel-datasource-zookeeper</artifactId>-->
+<!--        <version>1.8.4</version>-->
+<!--        <exclusions>-->
+<!--            <exclusion>-->
+<!--                <groupId>org.apache.zookeeper</groupId>-->
+<!--                <artifactId>zookeeper</artifactId>-->
+<!--            </exclusion>-->
+<!--        </exclusions>-->
+<!--    </dependency>-->
+
+    <!--nacos数据源-->
+    <dependency>
+        <groupId>com.alibaba.csp</groupId>
+        <artifactId>sentinel-datasource-nacos</artifactId>
+        <version>1.8.4</version>
+    </dependency>
 </dependencies>
 </project>
